@@ -17,11 +17,11 @@ The main code is divided as follows:
 
 To build:
 
-Source /opt/ros/<distro>/setup.bash
-Run catkin_make from top directory.
+* Source /opt/ros/kinetic/setup.bash (replace kinetic with your installed distro)
+* Run catkin_make from top directory.
 
 To run:
-In one terminal, run: roscore.
-In another, run: rosrun encoder_odometry simualted_wheels
-In another, run: rosrun encoder_odometry odometry_wheels
-Then run rviz and add an odometry display on the /odom topic, with the fixed frame set to /odom, and you'll see a pretty pattern
+* In one terminal, run: roscore.
+* In another, run: rosrun encoder_odometry simualted_wheels
+* In another, run: rosrun encoder_odometry odometry_wheels
+* Then run rviz and add an odometry display on the /odom topic, with the fixed frame set to /odom, and you'll see a pretty pattern
