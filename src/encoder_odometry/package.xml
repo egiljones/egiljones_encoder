@@ -3,7 +3,8 @@
   <name>encoder_odometry</name>
   <version>0.0.0</version>
   <description>Test odometry</description>
-
+  <maintainer email="egiljones@gmail.com">E. Gil Jones</maintainer>
+  
   <license>TODO</license>
 
   <buildtool_depend>catkin</buildtool_depend>

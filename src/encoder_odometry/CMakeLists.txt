@@ -11,15 +11,9 @@ find_package(catkin REQUIRED COMPONENTS
   encoder_msgs
 )
 
-## This macro ensures
-## modules and global scripts declared therein get installed
-## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
-catkin_python_setup()
-
 ## The catkin_package macro generates cmake config files for your package
 catkin_package(
   CATKIN_DEPENDS
-    rospy
     roscpp
     std_msgs
     nav_msgs
